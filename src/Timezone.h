@@ -54,4 +54,3 @@ class Timezone
         time_t m_dstLoc;        // dst start for given/current year, given in local time
         time_t m_stdLoc;        // std time start for given/current year, given in local time
 };
-#endif
