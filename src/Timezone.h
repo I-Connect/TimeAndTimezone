@@ -1,19 +1,15 @@
 /*----------------------------------------------------------------------*
  * Arduino Timezone Library                                             *
- * Jack Christensen Mar 2012                                            *
+ * Based on Jack Christensen Mar 2012                                            *
  *                                                                      *
  * Arduino Timezone Library Copyright (C) 2018 by Jack Christensen and  *
  * licensed under GNU GPL v3.0, https://www.gnu.org/licenses/gpl.html   *
  *----------------------------------------------------------------------*/ 
 
-#ifndef TIMEZONE_H_INCLUDED
-#define TIMEZONE_H_INCLUDED
-#if ARDUINO >= 100
+#pragma once
+
 #include <Arduino.h> 
-#else
-#include <WProgram.h> 
-#endif
-#include <TimeLib.h>    // https://github.com/PaulStoffregen/Time
+#include <TimeLib.h>
 
 // convenient constants for TimeChangeRules
 enum week_t {Last, First, Second, Third, Fourth}; 

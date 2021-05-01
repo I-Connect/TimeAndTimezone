@@ -1,0 +1,27 @@
+{
+  "name": "TimeAndTimezone",
+  "description": "Time and Timezone keeping library",
+  "keywords": "Time, date, hour, minute, second, day, week, month, year, RTC, DST, UTC",
+  "authors": [
+    {
+        "name": "Bas Schouten",
+        "maintainer": true
+    },
+    {
+        "name": "Jeroen van de Vorst"
+    }
+  ],
+  "repository": {
+      "type": "git",
+       "url": "https://github.com/I-Connect/TimeAndTimezone"
+  },
+  "version": "1.0",
+  "frameworks": "Arduino",
+  "platforms": [
+      "espressif32",
+      "atmelavr"
+  ],
+  "examples": [
+      "examples/*/*.ino"
+  ]
+}
